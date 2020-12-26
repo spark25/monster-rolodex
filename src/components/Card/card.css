@@ -1,0 +1,22 @@
+.card {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 14px;
+    background: #282c34;
+    box-shadow: 0px 18px 30px -12px #181b20;
+    color: #8593b1;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    /* border: 1px solid #8593b1;
+     */
+     background: #2d313a;
+}
+
+.card h2 {
+    color: #8593b1;
+}
